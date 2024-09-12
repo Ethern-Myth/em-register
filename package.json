@@ -1,5 +1,5 @@
 {
-	"name": "base",
+	"name": "em-register",
 	"version": "1.0.0",
 	"description": "emRegister is a service register for your interfaces to follow mvc architecture",
 	"main": "index.ts",
