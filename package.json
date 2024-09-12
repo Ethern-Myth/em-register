@@ -1,0 +1,35 @@
+{
+	"name": "base",
+	"version": "1.0.0",
+	"description": "emRegister is a service register for your interfaces to follow mvc architecture",
+	"main": "index.ts",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"files": [
+		"assets",
+		"dist"
+	],
+	"scripts": {
+		"build": "rimraf dist && tsup",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/Ethern-Myth/em-register.git"
+	},
+	"keywords": [
+		"javascript",
+		"typescript"
+	],
+	"author": "Ethern Myth",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Ethern-Myth/em-register/issues"
+	},
+	"homepage": "https://github.com/Ethern-Myth/em-register#readme",
+	"devDependencies": {
+		"rimraf": "^5.0.5",
+		"tsup": "^8.0.2",
+		"typescript": "^5.4.2"
+	}
+}
