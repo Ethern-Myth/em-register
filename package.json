@@ -1,6 +1,6 @@
 {
 	"name": "em-register",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "emRegister is a service register for your interfaces to follow mvc architecture",
 	"main": "dist/index.js",
 	"module": "dist/index.mjs",
